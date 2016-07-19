@@ -5,15 +5,27 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
-    <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+  <body id="color">
+
+    <div class="container">
+
+      <div class="row">
+        <object class="FtoC">
+          <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
+          <button id="convertFtoC">Convert</button>
+        </object>
+      </div>
+
+      <div class="row">
+        <object class="CtoF">
+          <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
+          <button id="convertCtoF">Convert</button>
+        </object>
+      </div>
+
+      <script type="text/javascript" src="js/project.js"></script>
+
     </div>
-    <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
-    </div>
-    <script type="text/javascript" src="js/project.js"></script>
-  </body>
+
+   </body>
 </html>
