@@ -1,5 +1,5 @@
-var = inputFtoC;
-var = inputCtoF;
+var inputFtoC;
+var inputCtoF;
 
 function caculateCelsius() {
 	inputFtoC = document.getElementById("inputFtoC").value;
