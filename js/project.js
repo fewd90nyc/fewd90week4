@@ -5,7 +5,7 @@
  	document.getElementById("solutionFtoC").innerHTML = result;
 } 	
 
-document.getElementById('solutionFtoC').onclick = convertFtoC;
+document.getElementById('convertFtoC').onclick = convertFtoC;
 
  function convertCtoF() {
     var userinput = document.getElementById("inputCtoF").value;
@@ -13,4 +13,4 @@ document.getElementById('solutionFtoC').onclick = convertFtoC;
     document.getElementById("solutionCtoF").innerHTML = result;
 }
 
-document.getElementById('solutionCtoF').onclick = convertCtoF;
+document.getElementById('convertCtoF').onclick = convertCtoF;
