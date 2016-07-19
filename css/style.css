@@ -37,7 +37,8 @@
 	font-size: 144px;
 	color: #F9F9F9;
 	letter-spacing: 0px;
-	font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 }
 
 #wrapper {
@@ -49,8 +50,8 @@
 /*Convert F to C // left side*/
 
 #inputFtoC {
-	font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
-	font-weight: 200;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 	color: #f9f9f9;
 	width: 250px;
 	background: inherit;
@@ -66,7 +67,8 @@
 #convertFtoC {
 	width: 287px;
 	background: inherit;
-	font-family: "Dosis-Regular", "Helvetica Neue", sans-serif;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 	color: #f9f9f9;
 	border: none;
 	text-align: right;
@@ -77,14 +79,15 @@
 	font-size: 144px;
 	color: #F9F9F9;
 	letter-spacing: 0px;
-	font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 }
 
 /*Farenheit to celsius // right side*/
 
 #inputCtoF {
-	font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
-	font-weight: 200;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 	color: #f9f9f9;
 	width: 250px;
 	background: inherit;
@@ -100,7 +103,8 @@
 #convertCtoF {
 	width: 300px;
 	background: inherit;
-	font-family: "Dosis-Regular", "Helvetica Neue", sans-serif;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 200;
 	color: #f9f9f9;
 	border: none;
 	text-align: left;
@@ -112,15 +116,16 @@
 	font-size: 144px;
 	color: #F9F9F9;
 	letter-spacing: 0px;
-	font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 }
 
 /*Symbols*/
 
 .symboldegree {
 	display: inline-block;
-    font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
-    font-weight: 200;
+    font-family: "Dosis", "Helvetica Neue", sans-serif;
+    font-weight: 100;
     font-size: 24px;
     padding-bottom: 121px;
     padding-top: 30px;
@@ -132,8 +137,8 @@
 }
 
 .symbolequal {
-	font-family: "Dosis-ExtraLight", "Helvetica Neue", sans-serif;
-	font-weight: 200;
+	font-family: "Dosis", "Helvetica Neue", sans-serif;
+	font-weight: 100;
 	font-size: 144px;
 	color: #F9F9F9;
 	letter-spacing: 0px;
