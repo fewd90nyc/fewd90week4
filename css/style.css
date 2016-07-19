@@ -60,6 +60,7 @@
 	border-bottom: solid 2px #f9f9f9;
 	margin-bottom: 34px;
 	text-align: right;
+	text-overflow: ellipsis;  
 }
 
 #convertFtoC {
@@ -93,6 +94,7 @@
 	border-bottom: solid 2px #f9f9f9;
 	margin-bottom: 34px;
 	text-align: right;
+	text-overflow: ellipsis; 
 }
 
 #convertCtoF {
