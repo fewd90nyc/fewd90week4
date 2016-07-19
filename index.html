@@ -6,13 +6,18 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+      <div class="row"> 
+      <button id="convertCtoF">Convert to &deg;F</button>
+      </div>
+
     <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+      <input type="text" id="inputFOrC" placeholder="Temparature?">
+      <div id="solutionFToC"></div>
+      <div id="solutionCToF"></div>
     </div>
+  
     <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
+      <button id="convertFtoC">Convert to &deg;C</button>
     </div>
     <script type="text/javascript" src="js/project.js"></script>
   </body>
