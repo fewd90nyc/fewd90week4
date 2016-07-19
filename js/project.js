@@ -1,32 +1,24 @@
-var inputFOrC;
-var calcToFaren;
-var calcToCel;
-var ResFaren;
-var ResCel;
+// on click...
+//save user input from box into variable
+//calculate to F or C
+// f to c = (userinput * 1.8) + 32
+// save new result into variable
+//display result
 
-document.getElementById("convertCtoF").onclick = ResFaren;
-document.getElementById("calcToCel").onclick = ResCel;
+document.getElementById("convertFtoC").onclick = fahrenheitToCelcius;
+document.getElementById("convertCtoF").onclick = celciusToFahrenheit;
 
-function ResFaren(){
-	document.getElementById("convertCtoF").onclick = ResFaren;
-	if (convertCtoF) {
-		ResFaren = (["inputFOrC" * 1.8] + 32) 
-	}
+function fahrenheitToCelcius(){
+	var userInput = document.getElementById("inputFOrC").value;
+	var fahrenheitResult = ((userInput * 1.8) + 32 );
+	document.getElementById("solutionFToC").innerHTML = fahrenheitResult;
 }
 
-function ResCel(){
-	document.body.style.backgroundColor = "blue";
-	document.getElementById("label").innerHTML = "Air is on.";
-	heatOn = false;
-	airOn = true;
+function celciusToFahrenheit(){
+	var userInput = document.getElementById("inputFOrC").value;
+	var celciusResult = ((userInput / 1.8) - 32 );
+	document.getElementById("solutionCToF").innerHTML = celciusResult;
 }
 
-function runHVAC() {
-	if (heatOn) {
-		currentTemp = currentTemp + 1;
-	}
-	else if(airOn) {
-		currentTemp = currentTemp - 1;			
-	}
-	document.getElementById("currentTemp").innerHTML = currentTemp;			
-}
+
+
