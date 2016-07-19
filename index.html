@@ -7,12 +7,17 @@
   </head>
   <body>
     <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+      <h1>The Temperature </br>Converter</h1>
+      <button id="FtoC" class="round-left">To Celsius</button>
+      <div class="box">
+        <input type="text" id="inputTemp"></input>
+      </div>
+      <button id="CtoF" class='round-right'>To Fahrenheit</button>
     </div>
     <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
+        <div class="box round-full">
+          <div id="convertedTemp"></div>
+        </div>
     </div>
     <script type="text/javascript" src="js/project.js"></script>
   </body>
