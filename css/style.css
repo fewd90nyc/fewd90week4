@@ -1,3 +1,40 @@
+body {
+	font-family: 'Eczar', serif;
+	background-color: #789872;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:700px;
+	height:500px;
+	
+}
+
+input {
+	padding:10px;
+	margin:10px;
+}
+
 .row {
-  padding: 20px;  
+  padding: 20px; 
+  margin:20px; 
+  float:left;
+  width:250px;
+  background-color: white;
+}
+
+button {
+	background-color: #EAEBEF;
+	font-size: 20px;
+	font-family:Arial, sans-serif;
+	text-transform:uppercase;
+	padding: 10px;
+	margin:20px 0;
+	width: 100%;
+	border:none;
 }
