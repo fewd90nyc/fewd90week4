@@ -1,3 +1,11 @@
-.row {
-  padding: 20px;  
+body {
+  background-color: #3498db;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
 }

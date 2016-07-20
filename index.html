@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Temperature Converter</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-    <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
-    </div>
-    <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
-    </div>
-    <script type="text/javascript" src="js/project.js"></script>
-  </body>
+	<head>
+		<title>Cftempconvo</title>
+   		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+	
+			<h1> Celsius/Farenheit Temperature Conversion Calculator</h1>
+
+
+			<h2>Input the current Celsius temperature in degrees</h2>
+				<input id="ctemp">
+				<button id="clickmeF">Calculate temp in Farenheit!</button>
+			<h3>Your Farenheit temp is => <span id="solutionF"> </span> <= degrees.</h3>
+
+
+
+			<h2>Input F Temp</h2>
+				<input id="ftemp">
+				<button id="clickme">Calculate temp in Celsius!</button>
+			<h3> Your Celsius temp is => <span id="solutionC"></span> <== degrees.</h3>
+
+		<script type="text/javascript" src="js/project.js"></script>
+	</body>
 </html>
