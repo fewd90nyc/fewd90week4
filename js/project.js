@@ -121,29 +121,57 @@ svg.append("g")
   .attr("transform", "translate(" + (width/2 + tubeWidth/2) + ",0)")
   .call(axis_f);
 
+
 // ANIMATION
 d3.select("#CtoF").on("input", function(){
 	currentTemp = +this.value;
 
-	d3.select("#redmercury")
-	.transition()
-	.delay(750)
-	.attr("y", scale(currentTemp))
-	.attr("height", tubeFill_bottom-scale(currentTemp));
+  if (currentTemp >= 0){
+    d3.select("#redmercury")
+    .transition()
+    .delay(750)
+    .attr("y", scale(currentTemp))
+    .attr("height", tubeFill_bottom-scale(currentTemp));
 
-	document.getElementById("FtoC").value = f(currentTemp*9/5+32);
+    document.getElementById("FtoC").value = f(currentTemp*9/5+32);
+  }
+  else{
+    d3.select("#redmercury")
+    .transition()
+    .delay(750)
+    .attr("y", tubeFill_top)
+    .attr("height", 0);
+
+  document.getElementById("FtoC").value = f(currentTemp*9/5+32);
+  }
+
 });
 
 d3.select("#FtoC").on("input", function(){
 	currentTemp = +this.value;
 
+ if (currentTemp >=32){
 	d3.select("#redmercury")
 	.transition()
 	.delay(750)
-	.attr("y", scale(currentTemp))
-	.attr("height", tubeFill_bottom-scale(currentTemp));
+	.attr("y", scale_f(currentTemp))
+	.attr("height", tubeFill_bottom-scale_f(currentTemp));
 
-	document.getElementById("CtoF").value = f((currentTemp-32)*5/9);
+  document.getElementById("CtoF").value = f((currentTemp-32)*5/9);
+  }
+  else{
+    
+  d3.select("#redmercury")
+  .transition()
+  .delay(750)
+  .attr("y", tubeFill_top)
+  .attr("height", 0);
+
+  document.getElementById("CtoF").value = f((currentTemp-32)*5/9);
+  }
+
 });
+
+
 
 
