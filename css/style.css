@@ -1,3 +1,41 @@
+body {
+	background-image:url("http://www.wallpapermania.eu/images/lthumbs/2013-07/5362_One-tree-four-times-of-the-year-four-seasons.jpg");
+	background-size: contain;
+	font-family: "Amatic SC", sans-serif;
+	font-size: 50px;
+	color: white;
+	padding-top: 85px;
+
+}
+
 .row {
-  padding: 20px;  
+  padding: 25px;  
+  text-align: center;
+}
+
+button {
+	margin: 10px;
+	box-shadow: 3px 4px 0px 0px black;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size:35px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+button:hover {
+
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+	background-color:#378de5;
+}
+button:active {
+	position:relative;
+	top:1px;
 }
