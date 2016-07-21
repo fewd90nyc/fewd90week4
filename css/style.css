@@ -1,3 +1,61 @@
 .row {
   padding: 20px;  
 }
+html{
+	background: url("../images/giphy.gif") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body{
+	width: 100%;
+	font-family: arial, sans-serif;
+	text-align: center;
+
+}
+#wrap{
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 70px;
+}
+h1{
+	margin-left:-30px; 
+}
+#inputFtoC{
+background-color: black;
+border-style: none;
+border-radius: 50%;
+color: white;
+width: 50px;
+height: 50px;
+font-size: 15px;
+text-align: center;
+
+}
+#inputCtoF{
+background-color: black;
+border-style: none;
+border-radius: 50%;
+color: white;
+width: 50px;
+height: 50px;
+font-size: 15px;
+text-align: center;
+}
+#convertFtoC{
+margin-left: 45PX;
+margin-top: 10px;
+background-color: black;
+color: white;
+border-radius: 7px;
+border-style: double;
+border-color: mediumorchid;
+}
+#convertCtoF{
+margin-left: 45PX;
+margin-top: 10px;
+background-color: black;
+color: white;
+border-radius: 7px;
+border-style: double;
+border-color: mediumorchid;
+}
