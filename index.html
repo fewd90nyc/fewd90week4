@@ -5,15 +5,24 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
+
   <body>
-    <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+      <div id="wrapper">
+        <div class="left">
+          <input type="text" id="inputFtoC" class="text144" placeholder="32"><div class="symboldegree">&deg; F</div>
+          <button id="convertFtoC">CONVERT TO CELSIUS&nbsp;&nbsp;&nbsp;&deg;C</button>
+        </div>
+
+    <div class="center symbolequal">
+      <span>=</span>
     </div>
-    <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
+
+      <div class="right">
+        <input type="text" id="inputCtoF" class="text144" placeholder="0"><div class="symboldegree">&deg; C</div>
+        <button id="convertCtoF">&nbsp;&nbsp;&nbsp;CONVERT TO FARENHEIT</button>
+      </div>
     </div>
+
     <script type="text/javascript" src="js/project.js"></script>
   </body>
 </html>
