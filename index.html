@@ -2,18 +2,42 @@
 <html>
   <head>
     <title>Temperature Converter</title>
+    <!-- css -->
     <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <!-- javascript -->
+    <script type="text/javascript" src="https://d3js.org/d3.v4.js" charset="utf-8"></script>
   </head>
+
   <body>
-    <div class="row">
-      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
-      <button id="convertFtoC">Convert</button>
+  
+    <div id="wrapper">
+      <h1>Temperature Converter</h1>
+      <h4>
+      <p>Enter any NUMBER</p> 
+      </h4>
+
+      <div id="control">
+        <input type="text" id = "CtoF" class="CtoF" placeholder="C to F">
+        <span class="CtoF">&deg;C</span>
+
+        <input type="text" id = "FtoC" class="FtoC" placeholder="F to C">
+        <span class="FtoC">&deg;F</span>
+      </div>
+
+      <div id="thermo"></div>
+      <p>Note that thermometer only displays temperature between 0&deg;C~100&deg;C (32 &deg;F~212&deg;F)</p>
+      
+      <footer>
+        <p>D3 code modified from 
+        <a href = "https://codepen.io/dbanksNZ/pen/rksLn">David Banks</a>,
+        Visualization by <a href="https://katielong.github.io/">Yue Long</a>
+      </footer>
     </div>
-    <div class="row">
-      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
-      <button id="convertCtoF">Convert</button>
-    </div>
-    <script type="text/javascript" src="js/project.js"></script>
-  </body>
+
+  <script type="text/javascript" src="js/project.js"></script>
+</body>
+
 </html>
