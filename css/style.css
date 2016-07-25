@@ -23,7 +23,6 @@ span{
 }
 
 footer{
-	margin-top:30px;
 	text-align: center;
 	font-size:10px;
 }
@@ -33,8 +32,12 @@ svg{
 }
 
 p{
-	text-align: center;
-	
+	text-align: center;	
+}
+
+a{
+  text-decoration:none;
+  color:#888;
 }
 
 
