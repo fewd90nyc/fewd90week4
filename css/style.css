@@ -1,3 +1,9 @@
 .row {
   padding: 20px;  
 }
+
+#holder {
+	padding-top: 100px;
+	padding-left: 350px;
+	background-color: #fbaf5d;
+}
